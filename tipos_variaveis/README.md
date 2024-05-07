@@ -1,18 +1,25 @@
-## Getting Started
+## Tipos de variaveis
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Tipo | Memória | Valor Mínimo | Valor Maximo|
+-----|---------|--------------|-------------|
+byte | 1 byte | -128 |127|
+short | 2 bytes | -32.768 | 32.767|
+int   | 4 bytes  | -2.147.483.648 | 2.147.483.647 |
+long  | 8 bytes | -∞  |+∞
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
+### Float, Double
+Tipos primitivos que podem conter partes fracionarias podem ser representados por dois tipos:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Tipo | memória | Mínimo | Máximo|
+------|----------|---------|-------|
+float | 4 bytes | Very small number (close to zero) | Very large number (far from zero)|
+double | 8 bytes | Very small number (close to zero) | Very large number (far from zero)|
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+O float é mais eficiente em termos de espaço na memória, mas o double tem uma precisão maior. Ao escolher entre eles depende do nível
+O float é um número decimal com precisão até 7 dígitos após o ponto flutuante e o double tem uma precisão de até 15 dígitos após
+O float é mais rápido e usa menos memória do que o double. O double tem uma precisão maior.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
 
-## Dependency Management
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
