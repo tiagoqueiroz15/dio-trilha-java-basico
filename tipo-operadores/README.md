@@ -17,4 +17,16 @@ double resultado = (10 * 7) + (20 / 4);
 (--) operador unario de decremento de valor - decrementa o valor em 1 unidade;<br>
 (!) operador logico NOT - retorna verdadeiro se a variável for false e vice-versa.<br><br>
 
+## Relacionais
+Operadores relacionais servem para comparar valores entre si, eles retornam um dos seguintes tipos: true ou false.<br><br>
 
+Operadores relacionais servem para comparar valores entre si, eles podem ser usados com tipos int, float e double.
+
+## Logicos
+
+Os operadores logicos representam o recurso que nos permite criar expressões lógicas maiores a partir da junção de duas ou mais expressões.
+
+operador E (&&) <br>
+Utilizado quando desejamos que as duas expressões sejam verdadeiras.<br>
+
+operador OU (||) tilizado quando precisamos que pelo meno um das expressões seja verdadeira.<br>
